@@ -8,9 +8,7 @@ int x=100;
 int y=100;
 int w=100;
 int h=100;
-int one=0;
-int tw=0;
-	awt()
+awt()
 {
 setLayout(null);
 Font f=new Font("Forte",Font.BOLD ,30);
@@ -86,25 +84,22 @@ System.out.println("player two is winner");
 }
 else if(c==9)
 {
-	System.out.println("Draw");
+System.out.println("Draw");
 }
 }
 }
+
 public class Awt1
 {
 public static void main(String args[])
 {
 awt a=new awt();
 a.setVisible(true);
-a.setSize(400,400);
+a.setSize(500,500);
 a.setLocation(300,200);
-a.setTitle("tic-tac");
+a.setTitle("Tic-Tac-Toe");
 a.setBackground(Color.RED);
-a.addWindowListener(new WindowAdapter() {
-public void windowClosing(WindowEvent e){System.exit(0);}
-});
-
-
+a.addWindowListener(new WindowAdapter(){public void windowClosing(WindowEvent e){System.exit(0);}});
 }
 }
 
