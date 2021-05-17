@@ -88,7 +88,7 @@ System.out.println("Draw");
 }
 }
 }
-public class Awt1
+public class Tic-Tac-Toe
 {
 public static void main(String args[])
 {
